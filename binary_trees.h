@@ -23,6 +23,17 @@ typedef struct binary_tree_s
 	struct binary_tree_s *right;
 } binary_tree_t;
 
+/**
+ * struct node_s - singly linked list
+ * @node: const binary tree node
+ * @next: points to the next node
+ */
+typedef struct node_s
+{
+        const binary_tree_t *node;
+        struct node_s *next;
+} ll;
+
 /* TYPE DEFINITIONS */
 
 typedef struct binary_tree_s binary_tree_t;
